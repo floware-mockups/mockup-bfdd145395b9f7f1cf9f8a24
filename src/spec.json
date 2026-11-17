@@ -1,0 +1,254 @@
+{
+  "title": "Monitoraggio dei consumi energetici",
+  "description": "Prototipo per consultare e confrontare i consumi mensili degli edifici pubblici e registrare nuove rilevazioni. I dati sono inventati; il confronto mensile è rappresentato tramite indicatori e tabelle.",
+  "accent": "emerald",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Sintesi dei consumi registrati e confronto mensile per edificio.",
+      "metrics": [
+        {
+          "label": "Consumo del mese",
+          "value": "12.480 kWh"
+        },
+        {
+          "label": "Variazione mensile",
+          "value": "−4,2%"
+        },
+        {
+          "label": "Edifici monitorati",
+          "value": "4"
+        },
+        {
+          "label": "Rilevazioni registrate",
+          "value": "16"
+        }
+      ],
+      "columns": [
+        "Edificio",
+        "Mese",
+        "Consumo (kWh)",
+        "Mese precedente (kWh)",
+        "Variazione"
+      ],
+      "rows": [
+        [
+          "Palazzo Lumo",
+          "Aprile",
+          "3.120",
+          "3.350",
+          "−6,9%"
+        ],
+        [
+          "Centro Vela",
+          "Aprile",
+          "2.860",
+          "2.940",
+          "−2,7%"
+        ],
+        [
+          "Biblioteca Nubi",
+          "Aprile",
+          "2.740",
+          "2.910",
+          "−5,8%"
+        ],
+        [
+          "Polo Rugiada",
+          "Aprile",
+          "3.760",
+          "3.820",
+          "−1,6%"
+        ],
+        [
+          "Palazzo Lumo",
+          "Marzo",
+          "3.350",
+          "3.210",
+          "+4,4%"
+        ],
+        [
+          "Centro Vela",
+          "Marzo",
+          "2.940",
+          "3.020",
+          "−2,6%"
+        ],
+        [
+          "Biblioteca Nubi",
+          "Marzo",
+          "2.910",
+          "2.780",
+          "+4,7%"
+        ],
+        [
+          "Polo Rugiada",
+          "Marzo",
+          "3.820",
+          "3.900",
+          "−2,1%"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "rilevazioni",
+      "title": "Rilevazioni mensili",
+      "description": "Consulta e filtra le letture energetiche registrate per edificio e mese.",
+      "metrics": [
+        {
+          "label": "Rilevazioni disponibili",
+          "value": "16"
+        },
+        {
+          "label": "Consumo medio",
+          "value": "3.120 kWh"
+        }
+      ],
+      "columns": [
+        "Edificio",
+        "Mese",
+        "Anno",
+        "Consumo (kWh)",
+        "Fonte energetica"
+      ],
+      "rows": [
+        [
+          "Palazzo Lumo",
+          "Aprile",
+          "2025",
+          "3.120",
+          "Elettricità"
+        ],
+        [
+          "Centro Vela",
+          "Aprile",
+          "2025",
+          "2.860",
+          "Elettricità"
+        ],
+        [
+          "Biblioteca Nubi",
+          "Aprile",
+          "2025",
+          "2.740",
+          "Elettricità"
+        ],
+        [
+          "Polo Rugiada",
+          "Aprile",
+          "2025",
+          "3.760",
+          "Elettricità"
+        ],
+        [
+          "Palazzo Lumo",
+          "Marzo",
+          "2025",
+          "3.350",
+          "Elettricità"
+        ],
+        [
+          "Centro Vela",
+          "Marzo",
+          "2025",
+          "2.940",
+          "Elettricità"
+        ],
+        [
+          "Biblioteca Nubi",
+          "Marzo",
+          "2025",
+          "2.910",
+          "Elettricità"
+        ],
+        [
+          "Polo Rugiada",
+          "Marzo",
+          "2025",
+          "3.820",
+          "Elettricità"
+        ],
+        [
+          "Palazzo Lumo",
+          "Febbraio",
+          "2025",
+          "3.210",
+          "Elettricità"
+        ],
+        [
+          "Centro Vela",
+          "Febbraio",
+          "2025",
+          "3.020",
+          "Elettricità"
+        ],
+        [
+          "Biblioteca Nubi",
+          "Febbraio",
+          "2025",
+          "2.780",
+          "Elettricità"
+        ],
+        [
+          "Polo Rugiada",
+          "Febbraio",
+          "2025",
+          "3.900",
+          "Elettricità"
+        ],
+        [
+          "Palazzo Lumo",
+          "Gennaio",
+          "2025",
+          "3.480",
+          "Elettricità"
+        ],
+        [
+          "Centro Vela",
+          "Gennaio",
+          "2025",
+          "3.150",
+          "Elettricità"
+        ],
+        [
+          "Biblioteca Nubi",
+          "Gennaio",
+          "2025",
+          "3.040",
+          "Elettricità"
+        ],
+        [
+          "Polo Rugiada",
+          "Gennaio",
+          "2025",
+          "4.120",
+          "Elettricità"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-rilevazione",
+      "title": "Registra rilevazione",
+      "description": "Inserisci i dati mensili di consumo di un edificio monitorato.",
+      "metrics": [],
+      "columns": [
+        "Edificio",
+        "Mese",
+        "Anno",
+        "Consumo (kWh)",
+        "Fonte energetica"
+      ],
+      "rows": [],
+      "form": [
+        "Edificio",
+        "Mese",
+        "Anno",
+        "Consumo (kWh)",
+        "Fonte energetica"
+      ]
+    }
+  ]
+}
